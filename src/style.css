@@ -1,0 +1,133 @@
+h1 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0 0 30px;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 50px 0 0;
+}
+
+h3 {
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+}
+
+h4 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 20px 0;
+  margin: auto;
+}
+
+p {
+  color: #4d4c48;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px auto;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+  max-height: 500px;
+}
+
+button {
+  color: #ffffff;
+  background: #000000;
+  display: block;
+  padding: 20px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto auto 40px;
+  border: 4px double #ffffff;
+  box-shadow: 5px 5px 5px rgb(241, 241, 244);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #000000;
+  background: #ffffff;
+  font-weight: bold;
+  border: 4px double #000000;
+}
+
+.content {
+  background: #000000;
+  max-width: 700px;
+  margin: auto;
+}
+
+.heading {
+  background: linear-gradient(
+    91.4deg,
+    rgb(235, 104, 104) -6%,
+    rgb(235, 142, 65) 12.4%,
+    rgb(233, 221, 101) 31.7%,
+    rgb(180, 231, 111) 51.4%,
+    rgb(92, 204, 230) 70.1%,
+    rgb(101, 113, 233) 89.4%,
+    rgb(170, 95, 248) 107.7%
+  );
+  padding: 110px 0 50px;
+}
+
+.article {
+  display: block;
+  background: #ffffff;
+  padding: 40px 0;
+  margin: auto;
+}
+
+.name-of-the-book {
+  font-style: italic;
+}
+
+.more-info {
+  display: block;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 170px;
+  padding: 10px 20px;
+  margin: 30px auto 0;
+  border: 4px double #000000;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 50%);
+}
+
+.more-info:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.more-info:hover {
+  color: #000000;
+  text-decoration: underline;
+}
