@@ -16,7 +16,7 @@ header {
     rgb(101, 113, 233) 89.4%,
     rgb(170, 95, 248) 107.7%
   );
-  padding: 110px 0 50px;
+  padding: 110px 10px 50px;
 }
 
 h1 {
@@ -44,10 +44,9 @@ footer p {
   color: #ffffff;
   background: #000000;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: monospace;
   font-size: 16px;
-  font-weight: bold;
   line-height: 1.5;
   padding: 20px 0px;
   margin: auto;
@@ -96,12 +95,12 @@ button:hover {
 
 .book {
   background: #000000;
-  padding: 40px 0px;
+  padding: 40px 20px;
 }
 
 .article {
   display: block;
-  padding: 40px 0;
+  padding: 40px 40px;
   margin: auto;
 }
 
